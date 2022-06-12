@@ -1,7 +1,12 @@
 function Total({ parts }) {
-  let total = 0;
-  parts.forEach((part) => (total += part.exercises));
-  return <p>Number of exercises: {total}</p>;
+  const total = parts.reduce((sum, current) => {
+    return sum + current.exercises;
+  }, 0);
+  return (
+    <p>
+      <strong>Number of exercises: {total}</strong>
+    </p>
+  );
 }
 
 export default Total;
