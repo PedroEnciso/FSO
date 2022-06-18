@@ -12,6 +12,8 @@ const PersonForm = ({ persons, setPersons }) => {
     if (checkForDuplicateName()) {
       setError(`${newName} is already in the phonebook`);
       setNameIsValid(false);
+    } else if (newName === "") {
+      setNameIsValid(false);
     } else {
       setNameIsValid(true);
     }
@@ -46,7 +48,7 @@ const PersonForm = ({ persons, setPersons }) => {
     // check if input is would be less than 10 digits
     // true: disable button
     if (inputArray.length > 10) {
-      setError("Only 7 digits are allowed");
+      setError("Only 10 digits are allowed");
       return;
     } else if (inputArray.length < 10) {
       setNumberIsValid(false);
@@ -60,6 +62,9 @@ const PersonForm = ({ persons, setPersons }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (setError !== "") {
+      setError("");
+    }
     const person = {
       name: newName,
       number: newNumber,
@@ -67,6 +72,8 @@ const PersonForm = ({ persons, setPersons }) => {
     setPersons(persons.concat(person));
     setNewName("");
     setNewNumber("");
+    setNameIsValid(false);
+    setNumberIsValid(false);
   };
 
   const checkForDuplicateName = () => {

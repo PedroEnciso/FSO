@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from "react";
 import InputField from "./InputField";
 
-const Search = ({ persons, setPeopleToDisplay }) => {
-  const [newSearch, setNewSearch] = useState("");
-
-  // everytime newSearch changes, search through phonebook for matches
+const Search = ({ persons, setPeopleToDisplay, newFilter, setNewFilter }) => {
+  // everytime newFilter changes, search through phonebook for matches
   useEffect(() => {
     const searchedPeople = persons.filter((person) => {
-      return person.name.toLowerCase().includes(newSearch.toLowerCase());
+      return person.name.toLowerCase().includes(newFilter.toLowerCase());
     });
     setPeopleToDisplay(searchedPeople);
-  }, [newSearch]);
+  }, [newFilter]);
 
-  const handleNewSearch = (event) => {
-    setNewSearch(event.target.value);
+  const handleNewFilter = (event) => {
+    setNewFilter(event.target.value);
   };
 
   return (
@@ -21,8 +19,8 @@ const Search = ({ persons, setPeopleToDisplay }) => {
       <InputField
         type="text"
         label="filter names"
-        value={newSearch}
-        handler={handleNewSearch}
+        value={newFilter}
+        handler={handleNewFilter}
       />
     </form>
   );
