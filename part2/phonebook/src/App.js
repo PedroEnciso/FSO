@@ -2,16 +2,23 @@ import { useState, useEffect } from "react";
 import ShowPeople from "./components/ShowPeople";
 import PersonForm from "./components/PersonForm";
 import Search from "./components/Search";
+import aaxios from "axios";
+import axios from "axios";
 
 function App() {
-  const [persons, setPersons] = useState([
-    { name: "poopoo", number: "5555555555" },
-    { name: "Larry", number: "3604004000" },
-    { name: "laser", number: "5555555554" },
-    { name: "ped", number: "7605252738" },
-  ]);
+  const [persons, setPersons] = useState([]);
   const [peopleToDisplay, setPeopleToDisplay] = useState(persons);
   const [newFilter, setNewFilter] = useState("");
+
+  const fetchData = () => {
+    console.log("effect");
+    axios.get("http://localhost:3001/persons").then((response) => {
+      console.log("promise fulfilled");
+      setPersons(response.data);
+    });
+  };
+
+  useEffect(fetchData, []);
 
   // if a person is ever added, reset search filter and display all names
   useEffect(() => {
