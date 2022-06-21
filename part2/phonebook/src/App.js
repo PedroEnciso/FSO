@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import ShowPeople from "./components/ShowPeople";
 import PersonForm from "./components/PersonForm";
 import Search from "./components/Search";
-import aaxios from "axios";
 import axios from "axios";
 
 function App() {

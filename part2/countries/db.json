@@ -1,0 +1,1214 @@
+{
+  "countries": [
+    {
+      "name": {
+        "common": "Germany",
+        "official": "Federal Republic of Germany",
+        "nativeName": {
+          "deu": {
+            "official": "Bundesrepublik Deutschland",
+            "common": "Deutschland"
+          }
+        }
+      },
+      "tld": [".de"],
+      "cca2": "DE",
+      "ccn3": "276",
+      "cca3": "DEU",
+      "cioc": "GER",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "idd": { "root": "+4", "suffixes": ["9"] },
+      "capital": ["Berlin"],
+      "altSpellings": [
+        "DE",
+        "Federal Republic of Germany",
+        "Bundesrepublik Deutschland"
+      ],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "languages": { "deu": "German" },
+      "translations": {
+        "ara": { "official": "جمهورية ألمانيا الاتحادية", "common": "ألمانيا" },
+        "ces": {
+          "official": "Spolková republika Německo",
+          "common": "Německo"
+        },
+        "cym": {
+          "official": "Federal Republic of Germany",
+          "common": "Germany"
+        },
+        "deu": {
+          "official": "Bundesrepublik Deutschland",
+          "common": "Deutschland"
+        },
+        "est": { "official": "Saksamaa Liitvabariik", "common": "Saksamaa" },
+        "fin": { "official": "Saksan liittotasavalta", "common": "Saksa" },
+        "fra": {
+          "official": "République fédérale d'Allemagne",
+          "common": "Allemagne"
+        },
+        "hrv": {
+          "official": "Njemačka Federativna Republika",
+          "common": "Njemačka"
+        },
+        "hun": {
+          "official": "Német Szövetségi Köztársaság",
+          "common": "Németország"
+        },
+        "ita": {
+          "official": "Repubblica federale di Germania",
+          "common": "Germania"
+        },
+        "jpn": { "official": "ドイツ連邦共和国", "common": "ドイツ" },
+        "kor": { "official": "독일 연방 공화국", "common": "독일" },
+        "nld": {
+          "official": "Bondsrepubliek Duitsland",
+          "common": "Duitsland"
+        },
+        "per": { "official": "جمهوری فدرال آلمان", "common": "آلمان" },
+        "pol": {
+          "official": "Republika Federalna Niemiec",
+          "common": "Niemcy"
+        },
+        "por": {
+          "official": "República Federal da Alemanha",
+          "common": "Alemanha"
+        },
+        "rus": {
+          "official": "Федеративная Республика Германия",
+          "common": "Германия"
+        },
+        "slk": {
+          "official": "Nemecká spolková republika",
+          "common": "Nemecko"
+        },
+        "spa": {
+          "official": "República Federal de Alemania",
+          "common": "Alemania"
+        },
+        "swe": {
+          "official": "Förbundsrepubliken Tyskland",
+          "common": "Tyskland"
+        },
+        "urd": { "official": "وفاقی جمہوریہ جرمنی", "common": "جرمنی" },
+        "zho": { "official": "德意志联邦共和国", "common": "德国" }
+      },
+      "latlng": [51.0, 9.0],
+      "landlocked": false,
+      "borders": [
+        "AUT",
+        "BEL",
+        "CZE",
+        "DNK",
+        "FRA",
+        "LUX",
+        "NLD",
+        "POL",
+        "CHE"
+      ],
+      "area": 357114.0,
+      "demonyms": {
+        "eng": { "f": "German", "m": "German" },
+        "fra": { "f": "Allemande", "m": "Allemand" }
+      },
+      "flag": "\uD83C\uDDE9\uD83C\uDDEA",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+      },
+      "population": 83240525,
+      "gini": { "2016": 31.9 },
+      "fifa": "GER",
+      "car": { "signs": ["DY"], "side": "right" },
+      "timezones": ["UTC+01:00"],
+      "continents": ["Europe"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/de.png",
+        "svg": "https://flagcdn.com/de.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [52.52, 13.4] },
+      "postalCode": { "format": "#####", "regex": "^(\\d{5})$" }
+    },
+    {
+      "name": {
+        "common": "Morocco",
+        "official": "Kingdom of Morocco",
+        "nativeName": {
+          "ara": { "official": "المملكة المغربية", "common": "المغرب" },
+          "ber": { "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ", "common": "ⵍⵎⴰⵖⵔⵉⴱ" }
+        }
+      },
+      "tld": [".ma", "المغرب."],
+      "cca2": "MA",
+      "ccn3": "504",
+      "cca3": "MAR",
+      "cioc": "MAR",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "MAD": { "name": "Moroccan dirham", "symbol": "د.م." } },
+      "idd": { "root": "+2", "suffixes": ["12"] },
+      "capital": ["Rabat"],
+      "altSpellings": ["MA", "Kingdom of Morocco", "Al-Mamlakah al-Maġribiyah"],
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "languages": { "ara": "Arabic", "ber": "Berber" },
+      "translations": {
+        "ara": { "official": "المملكة المغربية", "common": "المغرب" },
+        "ces": { "official": "Marocké království", "common": "Maroko" },
+        "cym": { "official": "Kingdom of Morocco", "common": "Morocco" },
+        "deu": { "official": "Königreich Marokko", "common": "Marokko" },
+        "est": { "official": "Maroko Kuningriik", "common": "Maroko" },
+        "fin": { "official": "Marokon kuningaskunta", "common": "Marokko" },
+        "fra": { "official": "Royaume du Maroc", "common": "Maroc" },
+        "hrv": { "official": "Kraljevina Maroko", "common": "Maroko" },
+        "hun": { "official": "Marokkói Királyság", "common": "Marokkó" },
+        "ita": { "official": "Regno del Marocco", "common": "Marocco" },
+        "jpn": { "official": "モロッコ王国", "common": "モロッコ" },
+        "kor": { "official": "모로코 왕국", "common": "모로코" },
+        "nld": { "official": "Koninkrijk Marokko", "common": "Marokko" },
+        "per": { "official": "پادشاهی مراکش", "common": "مراکش" },
+        "pol": { "official": "Królestwo Marokańskie", "common": "Maroko" },
+        "por": { "official": "Reino de Marrocos", "common": "Marrocos" },
+        "rus": { "official": "Королевство Марокко", "common": "Марокко" },
+        "slk": { "official": "Marocké kniežatstvo", "common": "Maroko" },
+        "spa": { "official": "Reino de Marruecos", "common": "Marruecos" },
+        "swe": { "official": "Konungariket Marocko", "common": "Marocko" },
+        "urd": { "official": "مملکتِ مراکش", "common": "مراکش" },
+        "zho": { "official": "摩洛哥王国", "common": "摩洛哥" }
+      },
+      "latlng": [32.0, -5.0],
+      "landlocked": false,
+      "borders": ["DZA", "ESH", "ESP"],
+      "area": 446550.0,
+      "demonyms": {
+        "eng": { "f": "Moroccan", "m": "Moroccan" },
+        "fra": { "f": "Marocaine", "m": "Marocain" }
+      },
+      "flag": "\uD83C\uDDF2\uD83C\uDDE6",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/3630439"
+      },
+      "population": 36910558,
+      "gini": { "2013": 39.5 },
+      "fifa": "MAR",
+      "car": { "signs": ["MA"], "side": "right" },
+      "timezones": ["UTC"],
+      "continents": ["Africa"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/ma.png",
+        "svg": "https://flagcdn.com/ma.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ma.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ma.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [34.02, -6.82] },
+      "postalCode": { "format": "#####", "regex": "^(\\d{5})$" }
+    },
+    {
+      "name": {
+        "common": "Belgium",
+        "official": "Kingdom of Belgium",
+        "nativeName": {
+          "deu": { "official": "Königreich Belgien", "common": "Belgien" },
+          "fra": { "official": "Royaume de Belgique", "common": "Belgique" },
+          "nld": { "official": "Koninkrijk België", "common": "België" }
+        }
+      },
+      "tld": [".be"],
+      "cca2": "BE",
+      "ccn3": "056",
+      "cca3": "BEL",
+      "cioc": "BEL",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "idd": { "root": "+3", "suffixes": ["2"] },
+      "capital": ["Brussels"],
+      "altSpellings": [
+        "BE",
+        "België",
+        "Belgie",
+        "Belgien",
+        "Belgique",
+        "Kingdom of Belgium",
+        "Koninkrijk België",
+        "Royaume de Belgique",
+        "Königreich Belgien"
+      ],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "languages": { "deu": "German", "fra": "French", "nld": "Dutch" },
+      "translations": {
+        "ara": { "official": "مملكة بلجيكا", "common": "بلجيكا" },
+        "ces": { "official": "Belgické království", "common": "Belgie" },
+        "cym": { "official": "Teyrnas Gwlad Belg", "common": "Gwlad Belg" },
+        "deu": { "official": "Königreich Belgien", "common": "Belgien" },
+        "est": { "official": "Belgia Kuningriik", "common": "Belgia" },
+        "fin": { "official": "Belgian kuningaskunta", "common": "Belgia" },
+        "fra": { "official": "Royaume de Belgique", "common": "Belgique" },
+        "hrv": { "official": "Kraljevina Belgija", "common": "Belgija" },
+        "hun": { "official": "Belga Királyság", "common": "Belgium" },
+        "ita": { "official": "Regno del Belgio", "common": "Belgio" },
+        "jpn": { "official": "ベルギー王国", "common": "ベルギー" },
+        "kor": { "official": "벨기에 왕국", "common": "벨기에" },
+        "nld": { "official": "Koninkrijk België", "common": "België" },
+        "per": { "official": "پادشاهی بلژیک", "common": "بلژیک" },
+        "pol": { "official": "Królestwo Belgii", "common": "Belgia" },
+        "por": { "official": "Reino da Bélgica", "common": "Bélgica" },
+        "rus": { "official": "Королевство Бельгия", "common": "Бельгия" },
+        "slk": { "official": "Belgické kráľovstvo", "common": "Belgicko" },
+        "spa": { "official": "Reino de Bélgica", "common": "Bélgica" },
+        "swe": { "official": "Konungariket Belgien", "common": "Belgien" },
+        "urd": { "official": "مملکتِ بلجئیم", "common": "بلجئیم" },
+        "zho": { "official": "比利时王国", "common": "比利时" }
+      },
+      "latlng": [50.83333333, 4.0],
+      "landlocked": false,
+      "borders": ["FRA", "DEU", "LUX", "NLD"],
+      "area": 30528.0,
+      "demonyms": {
+        "eng": { "f": "Belgian", "m": "Belgian" },
+        "fra": { "f": "Belge", "m": "Belge" }
+      },
+      "flag": "\uD83C\uDDE7\uD83C\uDDEA",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
+      },
+      "population": 11555997,
+      "gini": { "2018": 27.2 },
+      "fifa": "BEL",
+      "car": { "signs": ["B"], "side": "right" },
+      "timezones": ["UTC+01:00"],
+      "continents": ["Europe"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/be.png",
+        "svg": "https://flagcdn.com/be.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/be.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [50.83, 4.33] },
+      "postalCode": { "format": "####", "regex": "^(\\d{4})$" }
+    },
+    {
+      "name": {
+        "common": "Cook Islands",
+        "official": "Cook Islands",
+        "nativeName": {
+          "eng": { "official": "Cook Islands", "common": "Cook Islands" },
+          "rar": { "official": "Kūki 'Āirani", "common": "Kūki 'Āirani" }
+        }
+      },
+      "tld": [".ck"],
+      "cca2": "CK",
+      "ccn3": "184",
+      "cca3": "COK",
+      "cioc": "COK",
+      "independent": false,
+      "status": "officially-assigned",
+      "unMember": false,
+      "currencies": {
+        "CKD": { "name": "Cook Islands dollar", "symbol": "$" },
+        "NZD": { "name": "New Zealand dollar", "symbol": "$" }
+      },
+      "idd": { "root": "+6", "suffixes": ["82"] },
+      "capital": ["Avarua"],
+      "altSpellings": ["CK", "Kūki 'Āirani"],
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "languages": { "eng": "English", "rar": "Cook Islands Māori" },
+      "translations": {
+        "ara": { "official": "جزر كوك", "common": "جزر كوك" },
+        "ces": { "official": "Cookovy ostrovy", "common": "Cookovy ostrovy" },
+        "cym": { "official": "Ynysoedd Cook", "common": "Ynysoedd Cook" },
+        "deu": { "official": "Cookinseln", "common": "Cookinseln" },
+        "est": { "official": "Cooki saared", "common": "Cooki saared" },
+        "fin": { "official": "Cookinsaaret", "common": "Cookinsaaret" },
+        "fra": { "official": "Îles Cook", "common": "Îles Cook" },
+        "hrv": { "official": "Cook Islands", "common": "Cookovo Otočje" },
+        "hun": { "official": "Cook-szigetek", "common": "Cook-szigetek" },
+        "ita": { "official": "Isole Cook", "common": "Isole Cook" },
+        "jpn": { "official": "クック諸島", "common": "クック諸島" },
+        "kor": { "official": "쿡 제도", "common": "쿡 제도" },
+        "nld": { "official": "Cook eilanden", "common": "Cookeilanden" },
+        "per": { "official": "جزایر کوک", "common": "جزایر کوک" },
+        "pol": { "official": "Wyspy Cooka", "common": "Wyspy Cooka" },
+        "por": { "official": "Ilhas Cook", "common": "Ilhas Cook" },
+        "rus": { "official": "острова Кука", "common": "Острова Кука" },
+        "slk": { "official": "Cookove ostrovy", "common": "Cookove ostrovy" },
+        "spa": { "official": "Islas Cook", "common": "Islas Cook" },
+        "swe": { "official": "Cooköarna", "common": "Cooköarna" },
+        "urd": { "official": "جزائر کک", "common": "جزائر کک" },
+        "zho": { "official": "库克群岛", "common": "库克群岛" }
+      },
+      "latlng": [-21.23333333, -159.76666666],
+      "landlocked": false,
+      "area": 236.0,
+      "demonyms": {
+        "eng": { "f": "Cook Islander", "m": "Cook Islander" },
+        "fra": { "f": "Cookienne", "m": "Cookien" }
+      },
+      "flag": "\uD83C\uDDE8\uD83C\uDDF0",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2184233"
+      },
+      "population": 18100,
+      "fifa": "COK",
+      "car": { "signs": ["NZ"], "side": "left" },
+      "timezones": ["UTC-10:00"],
+      "continents": ["Oceania"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/ck.png",
+        "svg": "https://flagcdn.com/ck.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ck.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [-21.2, -159.77] }
+    },
+    {
+      "name": {
+        "common": "Ecuador",
+        "official": "Republic of Ecuador",
+        "nativeName": {
+          "spa": { "official": "República del Ecuador", "common": "Ecuador" }
+        }
+      },
+      "tld": [".ec"],
+      "cca2": "EC",
+      "ccn3": "218",
+      "cca3": "ECU",
+      "cioc": "ECU",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": {
+        "USD": { "name": "United States dollar", "symbol": "$" }
+      },
+      "idd": { "root": "+5", "suffixes": ["93"] },
+      "capital": ["Quito"],
+      "altSpellings": ["EC", "Republic of Ecuador", "República del Ecuador"],
+      "region": "Americas",
+      "subregion": "South America",
+      "languages": { "spa": "Spanish" },
+      "translations": {
+        "ara": { "official": "جمهورية الإكوادور", "common": "الإكوادور" },
+        "ces": { "official": "Ekvádorská republika", "common": "Ekvádor" },
+        "cym": { "official": "Gweriniaeth Ecwador", "common": "Ecwador" },
+        "deu": { "official": "Republik Ecuador", "common": "Ecuador" },
+        "est": { "official": "Ecuadori Vabariik", "common": "Ecuador" },
+        "fin": { "official": "Ecuadorin tasavalta", "common": "Ecuador" },
+        "fra": { "official": "République de l'Équateur", "common": "Équateur" },
+        "hrv": { "official": "Republika Ekvador", "common": "Ekvador" },
+        "hun": { "official": "Ecuadori Köztársaság", "common": "Ecuador" },
+        "ita": { "official": "Repubblica dell'Ecuador", "common": "Ecuador" },
+        "jpn": { "official": "エクアドル共和国", "common": "エクアドル" },
+        "kor": { "official": "에콰도르 공화국", "common": "에콰도르" },
+        "nld": { "official": "Republiek Ecuador", "common": "Ecuador" },
+        "per": { "official": "جمهوری اکوادور", "common": "اکوادور" },
+        "pol": { "official": "Ekwador", "common": "Ekwador" },
+        "por": { "official": "República do Equador", "common": "Equador" },
+        "rus": { "official": "Республика Эквадор", "common": "Эквадор" },
+        "slk": { "official": "Ekvádorská republika", "common": "Ekvádor" },
+        "spa": { "official": "República del Ecuador", "common": "Ecuador" },
+        "swe": { "official": "Republiken Ecuador", "common": "Ecuador" },
+        "urd": { "official": "جمہوریہ ایکوڈور", "common": "ایکواڈور" },
+        "zho": { "official": "厄瓜多尔共和国", "common": "厄瓜多尔" }
+      },
+      "latlng": [-2.0, -77.5],
+      "landlocked": false,
+      "borders": ["COL", "PER"],
+      "area": 276841.0,
+      "demonyms": {
+        "eng": { "f": "Ecuadorean", "m": "Ecuadorean" },
+        "fra": { "f": "Équatorienne", "m": "Équatorien" }
+      },
+      "flag": "\uD83C\uDDEA\uD83C\uDDE8",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/TbX8hUW4gcbRPZiK7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/108089"
+      },
+      "population": 17643060,
+      "gini": { "2019": 45.7 },
+      "fifa": "ECU",
+      "car": { "signs": ["EC"], "side": "right" },
+      "timezones": ["UTC-06:00", "UTC-05:00"],
+      "continents": ["South America"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/ec.png",
+        "svg": "https://flagcdn.com/ec.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ec.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ec.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [-0.22, -78.5] },
+      "postalCode": {
+        "format": "@####@",
+        "regex": "^([a-zA-Z]\\d{4}[a-zA-Z])$"
+      }
+    },
+    {
+      "name": {
+        "common": "Saint Kitts and Nevis",
+        "official": "Federation of Saint Christopher and Nevis",
+        "nativeName": {
+          "eng": {
+            "official": "Federation of Saint Christopher and Nevis",
+            "common": "Saint Kitts and Nevis"
+          }
+        }
+      },
+      "tld": [".kn"],
+      "cca2": "KN",
+      "ccn3": "659",
+      "cca3": "KNA",
+      "cioc": "SKN",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": {
+        "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+      },
+      "idd": { "root": "+1", "suffixes": ["869"] },
+      "capital": ["Basseterre"],
+      "altSpellings": ["KN", "Federation of Saint Christopher and Nevis"],
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "languages": { "eng": "English" },
+      "translations": {
+        "ara": {
+          "official": "اتحاد القديس كريستوفر ونيفيس",
+          "common": "سانت كيتس ونيفيس"
+        },
+        "ces": {
+          "official": "Federace Sv. Kryštof a Nevis",
+          "common": "Svatý Kryštof a Nevis"
+        },
+        "cym": {
+          "official": "Federation of Saint Christopher and Nevis",
+          "common": "Saint Kitts and Nevis"
+        },
+        "deu": {
+          "official": "Föderation von St. Kitts und Nevis",
+          "common": "St. Kitts und Nevis"
+        },
+        "est": {
+          "official": "Saint Kittsi ja Nevise Föderatsioon",
+          "common": "Saint Kitts ja Nevis"
+        },
+        "fin": {
+          "official": "Saint Christopherin ja Nevisin federaatio",
+          "common": "Saint Kitts ja Nevis"
+        },
+        "fra": {
+          "official": "Fédération de Saint-Christophe-et-Niévès",
+          "common": "Saint-Christophe-et-Niévès"
+        },
+        "hrv": {
+          "official": "Federacija Sv.Kristofora i Nevisa",
+          "common": "Sveti Kristof i Nevis"
+        },
+        "hun": {
+          "official": "Saint Christopher és Nevis Államszövetség",
+          "common": "Saint Kitts és Nevis"
+        },
+        "ita": {
+          "official": "Federazione di Saint Christopher e Nevis",
+          "common": "Saint Kitts e Nevis"
+        },
+        "jpn": {
+          "official": "セントクリストファーNevis連盟",
+          "common": "セントクリストファー・ネイビス"
+        },
+        "kor": {
+          "official": "세인트키츠 네비스 연방",
+          "common": "세인트키츠 네비스"
+        },
+        "nld": {
+          "official": "Federatie van Saint Kitts en Nevis",
+          "common": "Saint Kitts en Nevis"
+        },
+        "per": {
+          "official": "فدراسیون سنت کیتس و نویس",
+          "common": "سنت کیتس و نویس"
+        },
+        "pol": {
+          "official": "Federacja Saint Kitts i Nevis",
+          "common": "Saint Kitts i Nevis"
+        },
+        "por": {
+          "official": "Federação de São Cristóvão e Nevis",
+          "common": "São Cristóvão e Nevis"
+        },
+        "rus": {
+          "official": "Федерация Сент-Кристофер и Н е в и с",
+          "common": "Сент-Китс и Невис"
+        },
+        "slk": {
+          "official": "Feder໡cia Svätého Krištofa a Nevisu",
+          "common": "Svätý Krištof a Nevis"
+        },
+        "spa": {
+          "official": "Federación de San Cristóbal y Nevis",
+          "common": "San Cristóbal y Nieves"
+        },
+        "swe": {
+          "official": "Federationen Saint Kitts och Nevis",
+          "common": "Saint Kitts och Nevis"
+        },
+        "urd": {
+          "official": "وفاقِ سینٹ کیٹز و ناویس",
+          "common": "سینٹ کیٹز و ناویس"
+        },
+        "zho": {
+          "official": "圣克里斯托弗和尼维斯联邦",
+          "common": "圣基茨和尼维斯"
+        }
+      },
+      "latlng": [17.33333333, -62.75],
+      "landlocked": false,
+      "area": 261.0,
+      "demonyms": {
+        "eng": { "f": "Kittitian or Nevisian", "m": "Kittitian or Nevisian" },
+        "fra": {
+          "f": "Kittitienne-et-nevicienne",
+          "m": "Kittitien-et-nevicien"
+        }
+      },
+      "flag": "\uD83C\uDDF0\uD83C\uDDF3",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/qiaVwcLVTXX3eoTNA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/536899"
+      },
+      "population": 53192,
+      "fifa": "SKN",
+      "car": { "signs": ["KN"], "side": "left" },
+      "timezones": ["UTC-04:00"],
+      "continents": ["North America"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/kn.png",
+        "svg": "https://flagcdn.com/kn.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/kn.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/kn.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [17.3, -62.72] }
+    },
+    {
+      "name": {
+        "common": "Rwanda",
+        "official": "Republic of Rwanda",
+        "nativeName": {
+          "eng": { "official": "Republic of Rwanda", "common": "Rwanda" },
+          "fra": { "official": "République rwandaise", "common": "Rwanda" },
+          "kin": { "official": "Repubulika y'u Rwanda", "common": "Rwanda" }
+        }
+      },
+      "tld": [".rw"],
+      "cca2": "RW",
+      "ccn3": "646",
+      "cca3": "RWA",
+      "cioc": "RWA",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "RWF": { "name": "Rwandan franc", "symbol": "Fr" } },
+      "idd": { "root": "+2", "suffixes": ["50"] },
+      "capital": ["Kigali"],
+      "altSpellings": [
+        "RW",
+        "Republic of Rwanda",
+        "Repubulika y'u Rwanda",
+        "République du Rwanda"
+      ],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "languages": { "eng": "English", "fra": "French", "kin": "Kinyarwanda" },
+      "translations": {
+        "ara": { "official": "جمهورية رواندا", "common": "رواندا" },
+        "ces": { "official": "Rwandská republika", "common": "Rwanda" },
+        "cym": { "official": "Republic of Rwanda", "common": "Rwanda" },
+        "deu": { "official": "Republik Ruanda", "common": "Ruanda" },
+        "est": { "official": "Rwanda Vabariik", "common": "Rwanda" },
+        "fin": { "official": "Ruandan tasavalta", "common": "Ruanda" },
+        "fra": { "official": "République rwandaise", "common": "Rwanda" },
+        "hrv": { "official": "Republika Ruandi", "common": "Ruanda" },
+        "hun": { "official": "Ruandai Köztársaság", "common": "Ruanda" },
+        "ita": { "official": "Repubblica del Ruanda", "common": "Ruanda" },
+        "jpn": { "official": "ルワンダ共和国", "common": "ルワンダ" },
+        "kor": { "official": "르완다 공화국", "common": "르완다" },
+        "nld": { "official": "Republiek Rwanda", "common": "Rwanda" },
+        "per": { "official": "جمهوری رواندا", "common": "رواندا" },
+        "pol": { "official": "Republika Rwandy", "common": "Rwanda" },
+        "por": { "official": "República do Ruanda", "common": "Ruanda" },
+        "rus": { "official": "Республика Руанда", "common": "Руанда" },
+        "slk": { "official": "Rwandská republika", "common": "Rwanda" },
+        "spa": { "official": "República de Rwanda", "common": "Ruanda" },
+        "swe": { "official": "Republiken Rwanda", "common": "Rwanda" },
+        "urd": { "official": "جمہوریہ روانڈا", "common": "روانڈا" },
+        "zho": { "official": "卢旺达共和国", "common": "卢旺达" }
+      },
+      "latlng": [-2.0, 30.0],
+      "landlocked": true,
+      "borders": ["BDI", "COD", "TZA", "UGA"],
+      "area": 26338.0,
+      "demonyms": {
+        "eng": { "f": "Rwandan", "m": "Rwandan" },
+        "fra": { "f": "Rwandaise", "m": "Rwandais" }
+      },
+      "flag": "\uD83C\uDDF7\uD83C\uDDFC",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/j5xb5r7CLqjYbyP86",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/171496"
+      },
+      "population": 12952209,
+      "gini": { "2016": 43.7 },
+      "fifa": "RWA",
+      "car": { "signs": ["RWA"], "side": "right" },
+      "timezones": ["UTC+02:00"],
+      "continents": ["Africa"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/rw.png",
+        "svg": "https://flagcdn.com/rw.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/rw.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/rw.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [-1.95, 30.05] }
+    },
+    {
+      "name": {
+        "common": "Guyana",
+        "official": "Co-operative Republic of Guyana",
+        "nativeName": {
+          "eng": {
+            "official": "Co-operative Republic of Guyana",
+            "common": "Guyana"
+          }
+        }
+      },
+      "tld": [".gy"],
+      "cca2": "GY",
+      "ccn3": "328",
+      "cca3": "GUY",
+      "cioc": "GUY",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "GYD": { "name": "Guyanese dollar", "symbol": "$" } },
+      "idd": { "root": "+5", "suffixes": ["92"] },
+      "capital": ["Georgetown"],
+      "altSpellings": ["GY", "Co-operative Republic of Guyana"],
+      "region": "Americas",
+      "subregion": "South America",
+      "languages": { "eng": "English" },
+      "translations": {
+        "ara": { "official": "جمهورية غيانا التعاونية", "common": "غيانا" },
+        "ces": {
+          "official": "Kooperativní republika Guyana",
+          "common": "Guyana"
+        },
+        "cym": {
+          "official": "Co-operative Republic of Guyana",
+          "common": "Guyana"
+        },
+        "deu": {
+          "official": "Kooperative Republik Guyana",
+          "common": "Guyana"
+        },
+        "est": { "official": "Guyana Vabariik", "common": "Guyana" },
+        "fin": {
+          "official": "Guayanan osuustoiminnallinen tasavalta",
+          "common": "Guayana"
+        },
+        "fra": {
+          "official": "République coopérative de Guyana",
+          "common": "Guyana"
+        },
+        "hrv": { "official": "Zadruga Republika Gvajana", "common": "Gvajana" },
+        "hun": {
+          "official": "Guyanai Szövetkezeti Köztársaság",
+          "common": "Guyana"
+        },
+        "ita": {
+          "official": "Co -operative Republic of Guyana",
+          "common": "Guyana"
+        },
+        "jpn": { "official": "ガイアナの協同共和国", "common": "ガイアナ" },
+        "kor": { "official": "가이아나 협동 공화국", "common": "가이아나" },
+        "nld": {
+          "official": "Coöperatieve Republiek Guyana",
+          "common": "Guyana"
+        },
+        "per": { "official": "جمهوری تعاونی گویان", "common": "گویان" },
+        "pol": {
+          "official": "Kooperacyjna Republika Gujany",
+          "common": "Gujana"
+        },
+        "por": {
+          "official": "Co -operative República da Guiana",
+          "common": "Guiana"
+        },
+        "rus": {
+          "official": "Кооперативная Республика Гайана",
+          "common": "Гайана"
+        },
+        "slk": {
+          "official": "Guyanská kooperatívna republika",
+          "common": "Guyana"
+        },
+        "spa": {
+          "official": "República Cooperativa de Guyana",
+          "common": "Guyana"
+        },
+        "swe": {
+          "official": "Kooperativa republiken Guyana",
+          "common": "Guyana"
+        },
+        "urd": { "official": "تعاونی جمہوریہ گیانا", "common": "گیانا" },
+        "zho": { "official": "圭亚那共和国", "common": "圭亚那" }
+      },
+      "latlng": [5.0, -59.0],
+      "landlocked": false,
+      "borders": ["BRA", "SUR", "VEN"],
+      "area": 214969.0,
+      "demonyms": {
+        "eng": { "f": "Guyanese", "m": "Guyanese" },
+        "fra": { "f": "Guyanienne", "m": "Guyanien" }
+      },
+      "flag": "\uD83C\uDDEC\uD83C\uDDFE",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/DFsme2xEeugUAsCx5",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/287083"
+      },
+      "population": 786559,
+      "gini": { "1998": 45.1 },
+      "fifa": "GUY",
+      "car": { "signs": ["GUY"], "side": "left" },
+      "timezones": ["UTC-04:00"],
+      "continents": ["South America"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/gy.png",
+        "svg": "https://flagcdn.com/gy.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gy.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gy.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [6.8, -58.15] }
+    },
+    {
+      "name": {
+        "common": "Northern Mariana Islands",
+        "official": "Commonwealth of the Northern Mariana Islands",
+        "nativeName": {
+          "cal": {
+            "official": "Commonwealth of the Northern Mariana Islands",
+            "common": "Northern Mariana Islands"
+          },
+          "cha": {
+            "official": "Sankattan Siha Na Islas Mariånas",
+            "common": "Na Islas Mariånas"
+          },
+          "eng": {
+            "official": "Commonwealth of the Northern Mariana Islands",
+            "common": "Northern Mariana Islands"
+          }
+        }
+      },
+      "tld": [".mp"],
+      "cca2": "MP",
+      "ccn3": "580",
+      "cca3": "MNP",
+      "independent": false,
+      "status": "officially-assigned",
+      "unMember": false,
+      "currencies": {
+        "USD": { "name": "United States dollar", "symbol": "$" }
+      },
+      "idd": { "root": "+1", "suffixes": ["670"] },
+      "capital": ["Saipan"],
+      "altSpellings": [
+        "MP",
+        "Commonwealth of the Northern Mariana Islands",
+        "Sankattan Siha Na Islas Mariånas"
+      ],
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "languages": { "cal": "Carolinian", "cha": "Chamorro", "eng": "English" },
+      "translations": {
+        "ara": {
+          "official": "كومونولث جزر ماريانا الشمالية",
+          "common": "جزر ماريانا الشمالية"
+        },
+        "ces": {
+          "official": "Společenství Severních Marian",
+          "common": "Severní Mariany"
+        },
+        "cym": {
+          "official": "Commonwealth of the Northern Mariana Islands",
+          "common": "Northern Mariana Islands"
+        },
+        "deu": {
+          "official": "Commonwealth der Nördlichen Marianen",
+          "common": "Nördliche Marianen"
+        },
+        "est": {
+          "official": "Põhja-Mariaani Ühendus",
+          "common": "Põhja-Mariaanid"
+        },
+        "fin": {
+          "official": "Pohjois-Mariaanit",
+          "common": "Pohjois-Mariaanit"
+        },
+        "fra": {
+          "official": "Commonwealth des îles Mariannes du Nord",
+          "common": "Îles Mariannes du Nord"
+        },
+        "hrv": {
+          "official": "Zajednica je Sjeverni Marijanski otoci",
+          "common": "Sjevernomarijanski otoci"
+        },
+        "hun": {
+          "official": "Északi-Mariana-szigetek",
+          "common": "Északi-Mariana-szigetek"
+        },
+        "ita": {
+          "official": "Commonwealth delle Isole Marianne Settentrionali",
+          "common": "Isole Marianne Settentrionali"
+        },
+        "jpn": { "official": "北マリアナ諸島", "common": "北マリアナ諸島" },
+        "kor": { "official": "북마리아나 제도", "common": "북마리아나 제도" },
+        "nld": {
+          "official": "Commonwealth van de Noordelijke Marianen",
+          "common": "Noordelijke Marianeneilanden"
+        },
+        "per": {
+          "official": "جزایر ماریانای شمالی",
+          "common": "جزایر ماریانای شمالی"
+        },
+        "pol": {
+          "official": "Wspólnota Marianów Północnych",
+          "common": "Mariany Północne"
+        },
+        "por": {
+          "official": "Comunidade das Ilhas Marianas do Norte",
+          "common": "Marianas Setentrionais"
+        },
+        "rus": {
+          "official": "Содружество Северных Марианских островов",
+          "common": "Северные Марианские острова"
+        },
+        "slk": {
+          "official": "Spoločenstvo ostrovov Severné Mariány",
+          "common": "Severné Mariány"
+        },
+        "spa": {
+          "official": "Mancomunidad de las Islas Marianas del Norte",
+          "common": "Islas Marianas del Norte"
+        },
+        "swe": { "official": "Nordmarianerna", "common": "Nordmarianerna" },
+        "urd": {
+          "official": "دولتِ مشترکہ جزائر شمالی ماریانا",
+          "common": "جزائر شمالی ماریانا"
+        },
+        "zho": { "official": "北马里亚纳群岛", "common": "北马里亚纳群岛" }
+      },
+      "latlng": [15.2, 145.75],
+      "landlocked": false,
+      "area": 464.0,
+      "demonyms": {
+        "eng": { "f": "American", "m": "American" },
+        "fra": { "f": "Américaine", "m": "Américan" }
+      },
+      "flag": "\uD83C\uDDF2\uD83C\uDDF5",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/cpZ67knoRAcfu1417",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/306004"
+      },
+      "population": 57557,
+      "car": { "signs": ["USA"], "side": "right" },
+      "timezones": ["UTC+10:00"],
+      "continents": ["Oceania"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/mp.png",
+        "svg": "https://flagcdn.com/mp.svg"
+      },
+      "coatOfArms": {},
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [15.2, 145.75] }
+    },
+    {
+      "name": {
+        "common": "Botswana",
+        "official": "Republic of Botswana",
+        "nativeName": {
+          "eng": { "official": "Republic of Botswana", "common": "Botswana" },
+          "tsn": { "official": "Lefatshe la Botswana", "common": "Botswana" }
+        }
+      },
+      "tld": [".bw"],
+      "cca2": "BW",
+      "ccn3": "072",
+      "cca3": "BWA",
+      "cioc": "BOT",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "BWP": { "name": "Botswana pula", "symbol": "P" } },
+      "idd": { "root": "+2", "suffixes": ["67"] },
+      "capital": ["Gaborone"],
+      "altSpellings": ["BW", "Republic of Botswana", "Lefatshe la Botswana"],
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "languages": { "eng": "English", "tsn": "Tswana" },
+      "translations": {
+        "ara": { "official": "جمهورية بوتسوانا", "common": "بوتسوانا" },
+        "ces": { "official": "Botswanská republika", "common": "Botswana" },
+        "cym": { "official": "Republic of Botswana", "common": "Botswana" },
+        "deu": { "official": "Republik Botsuana", "common": "Botswana" },
+        "est": { "official": "Botswana Vabariik", "common": "Botswana" },
+        "fin": { "official": "Botswanan tasavalta", "common": "Botswana" },
+        "fra": { "official": "République du Botswana", "common": "Botswana" },
+        "hrv": { "official": "Republika Bocvana", "common": "Bocvana" },
+        "hun": { "official": "Botswanai Köztársaság", "common": "Botswana" },
+        "ita": { "official": "Repubblica del Botswana", "common": "Botswana" },
+        "jpn": { "official": "ボツワナ共和国", "common": "ボツワナ" },
+        "kor": { "official": "보츠와나 공화국", "common": "보츠와나" },
+        "nld": { "official": "Republiek Botswana", "common": "Botswana" },
+        "per": { "official": "جمهوری بوتسوانا", "common": "بوتسوانا" },
+        "pol": { "official": "Republika Botswany", "common": "Botswana" },
+        "por": { "official": "República do Botswana", "common": "Botswana" },
+        "rus": { "official": "Республика Ботсвана", "common": "Ботсвана" },
+        "slk": { "official": "Botswanská republika", "common": "Botswana" },
+        "spa": { "official": "República de Botswana", "common": "Botswana" },
+        "swe": { "official": "Republiken Botswana", "common": "Botswana" },
+        "urd": { "official": "جمہوریہ بوٹسوانا", "common": "بوٹسوانا" },
+        "zho": { "official": "博茨瓦纳共和国", "common": "博茨瓦纳" }
+      },
+      "latlng": [-22.0, 24.0],
+      "landlocked": true,
+      "borders": ["NAM", "ZAF", "ZMB", "ZWE"],
+      "area": 582000.0,
+      "demonyms": {
+        "eng": { "f": "Motswana", "m": "Motswana" },
+        "fra": { "f": "Botswanaise", "m": "Botswanais" }
+      },
+      "flag": "\uD83C\uDDE7\uD83C\uDDFC",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1889339"
+      },
+      "population": 2351625,
+      "gini": { "2015": 53.3 },
+      "fifa": "BOT",
+      "car": { "signs": ["BW"], "side": "left" },
+      "timezones": ["UTC+02:00"],
+      "continents": ["Africa"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/bw.png",
+        "svg": "https://flagcdn.com/bw.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bw.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bw.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [-24.63, 25.9] }
+    },
+    {
+      "name": {
+        "common": "Bouvet Island",
+        "official": "Bouvet Island",
+        "nativeName": {
+          "nor": { "official": "Bouvetøya", "common": "Bouvetøya" }
+        }
+      },
+      "tld": [".bv"],
+      "cca2": "BV",
+      "ccn3": "074",
+      "cca3": "BVT",
+      "independent": false,
+      "status": "officially-assigned",
+      "unMember": false,
+      "idd": { "root": "+4", "suffixes": ["7"] },
+      "altSpellings": ["BV", "Bouvetøya", "Bouvet-øya"],
+      "region": "Antarctic",
+      "languages": { "nor": "Norwegian" },
+      "translations": {
+        "ara": { "official": "جزر بوفيه", "common": "جزر بوفيه" },
+        "ces": { "official": "Bouvetův ostrov", "common": "Bouvetův ostrov" },
+        "cym": { "official": "Bouvet Island", "common": "Bouvet Island" },
+        "deu": { "official": "Bouvetinsel", "common": "Bouvetinsel" },
+        "est": { "official": "Bouvet’ saar", "common": "Bouvet’ saar" },
+        "fin": { "official": "Bouvet'nsaari", "common": "Bouvet'nsaari" },
+        "fra": { "official": "Île Bouvet", "common": "Île Bouvet" },
+        "hrv": { "official": "Bouvet Island", "common": "Otok Bouvet" },
+        "hun": { "official": "Bouvet-sziget", "common": "Bouvet-sziget" },
+        "ita": { "official": "Isola Bouvet", "common": "Isola Bouvet" },
+        "jpn": { "official": "ブーヴェ島", "common": "ブーベ島" },
+        "kor": { "official": "부베 섬", "common": "부베 섬" },
+        "nld": { "official": "Bouvet Island", "common": "Bouveteiland" },
+        "per": { "official": "جزیرهٔ بووه", "common": "جزیرهٔ بووه" },
+        "pol": { "official": "Wyspa Bouveta", "common": "Wyspa Bouveta" },
+        "por": { "official": "Ilha Bouvet", "common": "Ilha Bouvet" },
+        "rus": { "official": "Остров Буве", "common": "Остров Буве" },
+        "slk": { "official": "Bouvetov ostrov", "common": "Bouvetov ostrov" },
+        "spa": { "official": "Isla Bouvet", "common": "Isla Bouvet" },
+        "swe": { "official": "Bouvetön", "common": "Bouvetön" },
+        "urd": { "official": "جزیرہ بووہ", "common": "جزیرہ بووہ" },
+        "zho": { "official": "布维岛", "common": "布维岛" }
+      },
+      "latlng": [-54.43333333, 3.4],
+      "landlocked": false,
+      "area": 49.0,
+      "flag": "\uD83C\uDDE7\uD83C\uDDFB",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/7WRQAEKZb4uK36yi9",
+        "openStreetMaps": "https://www.openstreetmap.org/way/174996681"
+      },
+      "population": 0,
+      "car": { "signs": [""], "side": "right" },
+      "timezones": ["UTC+01:00"],
+      "continents": ["Antarctica"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/bv.png",
+        "svg": "https://flagcdn.com/bv.svg"
+      },
+      "coatOfArms": {},
+      "startOfWeek": "monday",
+      "capitalInfo": {}
+    },
+    {
+      "name": {
+        "common": "China",
+        "official": "People's Republic of China",
+        "nativeName": {
+          "zho": { "official": "中华人民共和国", "common": "中国" }
+        }
+      },
+      "tld": [".cn", ".中国", ".中國", ".公司", ".网络"],
+      "cca2": "CN",
+      "ccn3": "156",
+      "cca3": "CHN",
+      "cioc": "CHN",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": { "CNY": { "name": "Chinese yuan", "symbol": "¥" } },
+      "idd": { "root": "+8", "suffixes": ["6"] },
+      "capital": ["Beijing"],
+      "altSpellings": [
+        "CN",
+        "Zhōngguó",
+        "Zhongguo",
+        "Zhonghua",
+        "People's Republic of China",
+        "中华人民共和国",
+        "Zhōnghuá Rénmín Gònghéguó"
+      ],
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "languages": { "zho": "Chinese" },
+      "translations": {
+        "ara": { "official": "جمهورية الصين الشعبية", "common": "الصين" },
+        "ces": { "official": "Čínská lidová republika", "common": "Čína" },
+        "cym": { "official": "Gweriniaeth Pobl Tsieina", "common": "Tsieina" },
+        "deu": { "official": "Volksrepublik China", "common": "China" },
+        "est": { "official": "Hiina Rahvavabariik", "common": "Hiina" },
+        "fin": { "official": "Kiinan kansantasavalta", "common": "Kiina" },
+        "fra": {
+          "official": "République populaire de Chine",
+          "common": "Chine"
+        },
+        "hrv": { "official": "Narodna Republika Kina", "common": "Kina" },
+        "hun": { "official": "Kínai Népköztársaság", "common": "Kína" },
+        "ita": { "official": "Repubblica popolare cinese", "common": "Cina" },
+        "jpn": { "official": "中華人民共和国", "common": "中国" },
+        "kor": { "official": "중화인민공화국", "common": "중국" },
+        "nld": { "official": "Volksrepubliek China", "common": "China" },
+        "per": { "official": "جمهوری خلق چین", "common": "چین" },
+        "pol": { "official": "Chińska Republika Ludowa", "common": "Chiny" },
+        "por": { "official": "República Popular da China", "common": "China" },
+        "rus": { "official": "Народная Республика Китай", "common": "Китай" },
+        "slk": { "official": "Čínska ľudová republika", "common": "Čína" },
+        "spa": { "official": "República Popular de China", "common": "China" },
+        "swe": { "official": "Folkrepubliken Kina", "common": "Kina" },
+        "urd": { "official": "عوامی جمہوریہ چین", "common": "چین" }
+      },
+      "latlng": [35.0, 105.0],
+      "landlocked": false,
+      "borders": [
+        "AFG",
+        "BTN",
+        "MMR",
+        "HKG",
+        "IND",
+        "KAZ",
+        "NPL",
+        "PRK",
+        "KGZ",
+        "LAO",
+        "MAC",
+        "MNG",
+        "PAK",
+        "RUS",
+        "TJK",
+        "VNM"
+      ],
+      "area": 9706961.0,
+      "demonyms": {
+        "eng": { "f": "Chinese", "m": "Chinese" },
+        "fra": { "f": "Chinoise", "m": "Chinois" }
+      },
+      "flag": "\uD83C\uDDE8\uD83C\uDDF3",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/p9qC6vgiFRRXzvGi7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/270056"
+      },
+      "population": 1402112000,
+      "gini": { "2016": 38.5 },
+      "fifa": "CHN",
+      "car": { "signs": ["RC"], "side": "right" },
+      "timezones": ["UTC+08:00"],
+      "continents": ["Asia"],
+      "flags": {
+        "png": "https://flagcdn.com/w320/cn.png",
+        "svg": "https://flagcdn.com/cn.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cn.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cn.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": { "latlng": [39.92, 116.38] },
+      "postalCode": { "format": "######", "regex": "^(\\d{6})$" }
+    }
+  ]
+}
