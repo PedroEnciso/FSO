@@ -8,7 +8,7 @@ function App() {
   const [filteredCountries, setFilteredCountries] = useState(countries);
 
   const fetchData = () => {
-    axios.get("http://localhost:3001/countries").then((response) => {
+    axios.get("https://restcountries.com/v3.1/all").then((response) => {
       setCountries(response.data);
       setFilteredCountries(response.data);
     });
