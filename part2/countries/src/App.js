@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import CountryFilter from "./CountryFilter";
+import CountryFilter from "./components/CountryFilter";
+import CountryDisplay from "./components/CountryDisplay";
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -22,6 +23,7 @@ function App() {
         filteredCountries={filteredCountries}
         setFilteredCountries={setFilteredCountries}
       />
+      <CountryDisplay filteredCountries={filteredCountries} />
     </div>
   );
 }

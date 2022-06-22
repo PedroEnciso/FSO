@@ -23,9 +23,6 @@ const CountryFilter = ({
     <div>
       filter countries:
       <input type="text" onChange={inputHandler} value={userFilter} />
-      {filteredCountries.map((country) => {
-        return <p key={country.name.common}>{country.name.common}</p>;
-      })}
     </div>
   );
 };
