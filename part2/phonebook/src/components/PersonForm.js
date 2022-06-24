@@ -65,11 +65,26 @@ const PersonForm = ({ persons, setPersons }) => {
     }
 
     // check if the name exists in db
-    if (checkForDuplicateName()) {
+    const duplicatePerson = checkForDuplicateName();
+    console.log(duplicatePerson);
+    // check if the function returned a person
+    if (Object.keys(duplicatePerson).length !== 0) {
       // name exists, asks if user would like to edit person
       const message = `${newName} exists in the phonebook. Would you like to replace their existing number with this new number?`;
       if (window.confirm(message)) {
-        console.log("Allow update");
+        // create the new person object to be added
+        const newPerson = { ...duplicatePerson, number: newNumber };
+        // update db with the new person
+        personService
+          .updatePerson(newPerson.id, newPerson)
+          .then((returnedPerson) => {
+            setPersons(
+              persons.map((person) =>
+                person.id !== returnedPerson.id ? person : returnedPerson
+              )
+            );
+            resetForm();
+          });
         return;
       } else {
         return;
@@ -93,15 +108,16 @@ const PersonForm = ({ persons, setPersons }) => {
       });
   };
 
+  // if there is a duplicate person, return the person
+  // if no duplicate, return an empty object
   const checkForDuplicateName = () => {
-    let hasDuplicateValue = false;
+    let duplicate = {};
     persons.forEach((person) => {
       if (person.name.toLowerCase() === newName.toLowerCase()) {
-        hasDuplicateValue = true;
-        return;
+        duplicate = person;
       }
     });
-    return hasDuplicateValue;
+    return duplicate;
   };
 
   // checks if a string has non-integer chars
