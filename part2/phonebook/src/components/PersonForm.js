@@ -10,10 +10,7 @@ const PersonForm = ({ persons, setPersons }) => {
   const [numberIsValid, setNumberIsValid] = useState(false);
 
   useEffect(() => {
-    if (checkForDuplicateName()) {
-      setError(`${newName} is already in the phonebook`);
-      setNameIsValid(false);
-    } else if (newName === "") {
+    if (newName === "") {
       setNameIsValid(false);
     } else {
       setNameIsValid(true);
@@ -66,6 +63,19 @@ const PersonForm = ({ persons, setPersons }) => {
     if (setError !== "") {
       setError("");
     }
+
+    // check if the name exists in db
+    if (checkForDuplicateName()) {
+      // name exists, asks if user would like to edit person
+      const message = `${newName} exists in the phonebook. Would you like to replace their existing number with this new number?`;
+      if (window.confirm(message)) {
+        console.log("Allow update");
+        return;
+      } else {
+        return;
+      }
+    }
+
     const person = {
       name: newName,
       number: newNumber,
