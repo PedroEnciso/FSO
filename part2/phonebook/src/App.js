@@ -33,7 +33,11 @@ function App() {
         setNewFilter={setNewFilter}
       />
       <PersonForm persons={persons} setPersons={setPersons} />
-      <ShowPeople persons={peopleToDisplay} />
+      <ShowPeople
+        peopleToDisplay={peopleToDisplay}
+        persons={persons}
+        setPersons={setPersons}
+      />
     </div>
   );
 }

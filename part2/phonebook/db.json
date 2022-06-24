@@ -21,39 +21,14 @@
       "id": 4
     },
     {
-      "name": "jerry",
-      "number": "4903590588",
-      "id": 5
-    },
-    {
-      "name": "henry",
-      "number": "3490294020",
-      "id": 6
-    },
-    {
-      "name": "potter",
-      "number": "9049085098",
-      "id": 7
-    },
-    {
-      "name": "ben",
-      "number": "0395095093",
-      "id": 8
-    },
-    {
       "name": "frank",
       "number": "4905694946",
       "id": 9
     },
     {
-      "name": "steve",
-      "number": "8938958938",
-      "id": 10
-    },
-    {
-      "name": "harry",
-      "number": "3509095006",
-      "id": 11
+      "name": "larry bird",
+      "number": "3424590945",
+      "id": 12
     }
   ]
 }
