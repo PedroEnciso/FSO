@@ -10,9 +10,7 @@ function App() {
   const [newFilter, setNewFilter] = useState("");
 
   const fetchData = () => {
-    console.log("effect");
     axios.get("http://localhost:3001/persons").then((response) => {
-      console.log("promise fulfilled");
       setPersons(response.data);
     });
   };
@@ -24,6 +22,7 @@ function App() {
     setPeopleToDisplay(persons);
     setNewFilter("");
   }, [persons]);
+
   return (
     <div>
       <h1>phonebook</h1>

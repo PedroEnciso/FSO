@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import InputField from "./InputField";
+import personService from "../services/persons";
 
 const PersonForm = ({ persons, setPersons }) => {
   const [newName, setNewName] = useState("");
@@ -69,11 +70,17 @@ const PersonForm = ({ persons, setPersons }) => {
       name: newName,
       number: newNumber,
     };
-    setPersons(persons.concat(person));
-    setNewName("");
-    setNewNumber("");
-    setNameIsValid(false);
-    setNumberIsValid(false);
+
+    personService
+      .addPerson(person)
+      .then((person) => {
+        setPersons(persons.concat(person));
+        resetForm();
+      })
+      .catch((error) => {
+        console.log("could not add person to the server");
+        console.log(error.message);
+      });
   };
 
   const checkForDuplicateName = () => {
@@ -109,6 +116,14 @@ const PersonForm = ({ persons, setPersons }) => {
     } else {
       return true;
     }
+  };
+
+  // function resets all form elements after submit
+  const resetForm = () => {
+    setNewName("");
+    setNewNumber("");
+    setNameIsValid(false);
+    setNumberIsValid(false);
   };
 
   return (
