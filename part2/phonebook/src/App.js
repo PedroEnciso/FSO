@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div>
-      <h1>phonebook</h1>
+      <h1 className="text-3xl font-bold underline">phonebook</h1>
       <Search
         persons={persons}
         setPeopleToDisplay={setPeopleToDisplay}
