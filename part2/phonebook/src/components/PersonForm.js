@@ -66,7 +66,6 @@ const PersonForm = ({ persons, setPersons }) => {
 
     // check if the name exists in db
     const duplicatePerson = checkForDuplicateName();
-    console.log(duplicatePerson);
     // check if the function returned a person
     if (Object.keys(duplicatePerson).length !== 0) {
       // name exists, asks if user would like to edit person
