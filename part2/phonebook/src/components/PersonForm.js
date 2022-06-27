@@ -87,6 +87,13 @@ const PersonForm = ({ persons, setPersons, showMessage, message }) => {
             showMessage(`${newPerson.name} has been updated.`, "success");
             // clear the form
             resetForm();
+          })
+          .catch((error) => {
+            // show error message
+            showMessage(
+              `${newPerson.name} could not be updated. Please try refreshing the page.`,
+              "error"
+            );
           });
         return;
       } else {

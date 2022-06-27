@@ -28,14 +28,22 @@ const ShowPeople = ({
       return;
     }
     // confirmed, delete user
-    personService.deletePerson(id).then((response) => {
-      const remainder = persons.filter((person) => {
-        return person.id !== id;
+    personService
+      .deletePerson(id)
+      .then((response) => {
+        const remainder = persons.filter((person) => {
+          return person.id !== id;
+        });
+        setPersons(remainder);
+        // show a message to confirm that a person has been added
+        showMessage(`${name} has been deleted.`, "success");
+      })
+      .catch((error) => {
+        showMessage(
+          `${name} has already been deleted. Please refresh the page.`,
+          "error"
+        );
       });
-      setPersons(remainder);
-      // show a message to confirm that a person has been added
-      showMessage(`${name} has been deleted.`, "success");
-    });
   };
 
   return (
