@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import InputField from "./InputField";
 import personService from "../services/persons";
+import Message from "./Message";
 
-const PersonForm = ({ persons, setPersons }) => {
+const PersonForm = ({ persons, setPersons, showMessage, message }) => {
   const [newName, setNewName] = useState("");
   const [newNumber, setNewNumber] = useState("");
   const [error, setError] = useState("");
@@ -82,6 +83,9 @@ const PersonForm = ({ persons, setPersons }) => {
                 person.id !== returnedPerson.id ? person : returnedPerson
               )
             );
+            // show a message to confirm that a person has been updated
+            showMessage(`${newPerson.name} has been updated.`, "success");
+            // clear the form
             resetForm();
           });
         return;
@@ -99,6 +103,8 @@ const PersonForm = ({ persons, setPersons }) => {
       .addPerson(person)
       .then((person) => {
         setPersons(persons.concat(person));
+        // show a message to confirm that a person has been added
+        showMessage(`${person.name} has been added!`, "success");
         resetForm();
       })
       .catch((error) => {
@@ -177,6 +183,11 @@ const PersonForm = ({ persons, setPersons }) => {
         </button>
       </div>
       <p style={{ color: "red" }}>{error}</p>
+      {typeof message.message !== "undefined" ? (
+        <Message message={message.message} type={message.type} />
+      ) : (
+        ""
+      )}
     </form>
   );
 };

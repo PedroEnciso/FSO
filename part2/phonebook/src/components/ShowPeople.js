@@ -1,7 +1,14 @@
 import React from "react";
 import personService from "../services/persons";
+import Message from "./Message";
 
-const ShowPeople = ({ peopleToDisplay, persons, setPersons }) => {
+const ShowPeople = ({
+  peopleToDisplay,
+  persons,
+  setPersons,
+  showMessage,
+  message,
+}) => {
   // function receives a number and returns a formatted phone number
   // xxxxxxxxxx => xxx-xxx-xxxx
   const displayNumber = (number) => {
@@ -21,11 +28,13 @@ const ShowPeople = ({ peopleToDisplay, persons, setPersons }) => {
       return;
     }
     // confirmed, delete user
-    personService.deletePerson(id).then((deletedPerson) => {
+    personService.deletePerson(id).then((response) => {
       const remainder = persons.filter((person) => {
         return person.id !== id;
       });
       setPersons(remainder);
+      // show a message to confirm that a person has been added
+      showMessage(`${name} has been deleted.`, "success");
     });
   };
 

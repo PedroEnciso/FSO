@@ -1,1 +1,19 @@
+.message-box {
+  border-radius: 10px;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
 
+.error {
+  border: 2px solid red;
+  color: red;
+}
+
+.success {
+  border: 2px solid green;
+  color: green;
+}
